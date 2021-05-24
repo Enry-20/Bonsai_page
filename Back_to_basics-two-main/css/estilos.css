@@ -211,7 +211,9 @@ height: 300px;} */
 .about__us {
     grid-row: 2/3;
     text-align: center;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 @media(min-width: 768px) {
     .about {
